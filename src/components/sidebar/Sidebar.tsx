@@ -23,9 +23,13 @@ const Sidebar = () => {
                     )}
                 </NavLink>
                 <div className="amc-links">
-                    <NavLink to={"/about"}>About</NavLink>
-                    <NavLink to={"/myskills"}>My Skills</NavLink>
-                    <NavLink to={"/contact"}>Contact</NavLink>
+                    <NavLink to={"reno-codes-portfolio/about"}>About</NavLink>
+                    <NavLink to={"reno-codes-portfolio/myskills"}>
+                        My Skills
+                    </NavLink>
+                    <NavLink to={"reno-codes-portfolio/contact"}>
+                        Contact
+                    </NavLink>
                 </div>
                 <div className="social-icons-container">
                     <a

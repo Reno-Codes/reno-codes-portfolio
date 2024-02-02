@@ -44,14 +44,20 @@ function App() {
             <Sidebar />
             <div className="content">
                 <Routes>
-                    <Route path="/" element={<Home></Home>}></Route>
-                    <Route path="/about" element={<About></About>}></Route>
                     <Route
-                        path="/myskills"
+                        path="/reno-codes-portfolio/"
+                        element={<Home></Home>}
+                    ></Route>
+                    <Route
+                        path="reno-codes-portfolio/about"
+                        element={<About></About>}
+                    ></Route>
+                    <Route
+                        path="reno-codes-portfolio/myskills"
                         element={<MySkills></MySkills>}
                     ></Route>
                     <Route
-                        path="/contact"
+                        path="reno-codes-portfolio/contact"
                         element={<Contact></Contact>}
                     ></Route>
                 </Routes>
