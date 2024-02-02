@@ -1,0 +1,93 @@
+/* Sidebar.css */
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 150px;
+    background-color: rgb(19, 21, 24);
+    color: #fff;
+    border-right: 1px solid rgb(61, 61, 61);
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar ul a:not(.active):hover {
+    background-color: #00000071;
+}
+
+.sidebar img {
+    width: 35%;
+}
+
+.sidebar a {
+    padding: 20px 0 20px 0;
+    width: 100%;
+    border-top: 1px solid rgb(61, 61, 61);
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar .no-top-border {
+    border-top: none;
+}
+
+.sidebar a:not(.active) {
+    color: #ffffff83;
+}
+
+.active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.r-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.r-logo p {
+    padding-top: 15px;
+}
+
+.logo-title {
+    font-family: "Caveat", sans-serif;
+}
+
+.social-icons-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-top: 1px solid rgb(61, 61, 61);
+}
+
+.social-icons-container img {
+    width: 25px;
+    filter: contrast(0);
+    transition: all 0.3s ease;
+}
+
+.social-icons-container img:hover {
+    filter: contrast(1);
+    transform: scale(1.2);
+}
+
+.social-icons-container a {
+    text-decoration: none;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+.amc-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

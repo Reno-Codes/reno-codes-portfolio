@@ -1,0 +1,58 @@
+/* App.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand:wght@300;400;500;600;700&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin-left: 150px;
+}
+
+.content-lr__padding {
+    padding: 0 60px;
+    transition: all 1s ease;
+}
+
+.content-t-margin {
+    margin-top: 50px;
+}
+
+.code-tag {
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+    color: #ffffff27;
+    letter-spacing: 3px;
+}
+
+.child-tag {
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        margin-left: 0;
+    }
+
+    .content-lr__padding {
+        padding: 0 10px;
+    }
+
+    .content-t-margin {
+        margin-top: 10px;
+    }
+}
+
+.neon-dot {
+    position: absolute;
+    z-index: 999;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(48, 253, 185);
+    box-shadow: 0 0 7px 1px rgb(48, 253, 185);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}

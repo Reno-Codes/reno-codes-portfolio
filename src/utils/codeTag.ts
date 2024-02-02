@@ -1,0 +1,16 @@
+export const codeTag = {
+    p_start: "<p>",
+    p_end: "</p>",
+    body_start: "<body>",
+    body_end: "</body>",
+    h1_start: "<h1>",
+    h1_end: "</h1>",
+    article_start: "<article>",
+    article_end: "</article>",
+    form_start: "<form>",
+    form_end: "</form>",
+    input_start: "<input>",
+    input_end: "</input>",
+    btn_start: "<button>",
+    btn_end: "</button>",
+};

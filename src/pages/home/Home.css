@@ -1,0 +1,71 @@
+.inline-logo {
+    width: 90px;
+    margin-bottom: -4px;
+    transition: transform 1s ease;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg) scale(0.5);
+        filter: blur(10px);
+    }
+
+    to {
+        transform: rotate(360deg) scale(1);
+        filter: blur(0px);
+    }
+}
+
+.inline-logo.rotate {
+    animation: rotate360 0.5s ease;
+}
+
+.hi {
+    font-family: "Readex Pro", sans-serif;
+    font-size: 5rem;
+    color: #ffffff;
+    line-height: 1;
+    margin-left: 80px;
+}
+
+.description-p {
+    font-size: 1.5rem;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 200;
+    color: #ffffff83;
+    letter-spacing: 3px;
+    margin-left: 80px;
+    transition: all 0.3s ease;
+}
+
+.description-p:hover {
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+
+.contact-button {
+    position: relative;
+    background-color: transparent;
+    color: rgb(48, 253, 185);
+    border: 1px solid rgb(48, 253, 185);
+    padding: 15px 40px;
+    letter-spacing: 3px;
+    transition: all 0.3s ease;
+    margin: 30px 0 30px 80px;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.contact-button:not(.disabled-button):hover {
+    background-color: rgb(48, 253, 185);
+    color: #181818;
+    box-shadow: 0 0 50px rgb(48, 253, 185);
+}
+
+.contact-button div {
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background-color: rgb(48, 253, 185);
+    bottom: 0;
+    right: 0;
+}

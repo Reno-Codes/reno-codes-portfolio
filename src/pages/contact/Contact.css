@@ -1,0 +1,32 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 80px;
+    gap: 10px;
+}
+
+.form-container input,
+textarea {
+    width: 200px;
+    padding: 7px;
+}
+
+.contact-button.disabled-button {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.message-sent-p {
+    color: rgb(48, 253, 185);
+    font-size: 1rem;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin-left: 80px;
+    transition: all 0.3s ease;
+}
+
+.message-sent-p.error {
+    color: rgb(255, 0, 0);
+}

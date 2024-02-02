@@ -1,0 +1,38 @@
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border: none;
+    }
+
+    .sidebar img {
+        width: 20%;
+    }
+
+    .sidebar a {
+        padding: 15px 0;
+    }
+
+    .amc-links {
+        flex-direction: row;
+    }
+}
+
+/* Media query for screens smaller than 400px */
+@media screen and (max-width: 470px) {
+    .sidebar {
+        width: 100%;
+        border: none;
+    }
+
+    .sidebar img {
+        width: 20%;
+    }
+
+    .sidebar a {
+        padding: 10px 0;
+        display: inline;
+    }
+}
